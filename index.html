@@ -3,319 +3,1424 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Solcaya — a private studio composing bespoke custom DJ mixes for a discerning clientele.">
+<meta name="description" content="Solcaya — a private studio composing bespoke custom DJ mixes for weddings, private estates, and flagship evenings. Three tiers: Sol $197, Caya $397, Solcaya from $750. Discretion guaranteed.">
 <title>Solcaya — Bespoke Custom DJ Mixes</title>
+<link rel="canonical" href="https://solcaya.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Solcaya — Bespoke Custom DJ Mixes">
+<meta property="og:description" content="Private studio composing custom DJ mixes for weddings, estates, and flagship evenings. Three tiers. Discretion guaranteed.">
+<meta property="og:url" content="https://solcaya.com/">
+<meta property="og:image" content="https://solcaya.com/assets/solcaya-og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Solcaya — Bespoke Custom DJ Mixes">
+<meta name="twitter:description" content="Private studio composing custom DJ mixes for weddings, estates, and flagship evenings. Three tiers. Discretion guaranteed.">
+<meta name="twitter:image" content="https://solcaya.com/assets/solcaya-og.svg">
+
+<!-- JSON-LD Structured Data for AI Search (AEO/GEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Solcaya",
+      "alternateName": "Solcaya Studio",
+      "url": "https://solcaya.com",
+      "logo": "https://solcaya.com/assets/solcaya-logo.svg",
+      "sameAs": [
+        "https://instagram.com/solcaya.studio",
+        "https://tiktok.com/@solcaya.studio"
+      ],
+      "email": "hello@solcaya.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "West Palm Beach",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "knowsAbout": [
+        "Bespoke DJ mixes",
+        "Custom wedding music",
+        "Private event sound curation",
+        "White-label DJ mixes for planners"
+      ]
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Bespoke DJ Mix Commission",
+      "provider": {"@type": "Organization", "name": "Solcaya"},
+      "name": "Sol — 45-min Bespoke Mix",
+      "description": "45-minute bespoke DJ mix with private taste consultation, MP3+WAV masters, two revisions, 7-day delivery.",
+      "offers": {
+        "@type": "Offer",
+        "price": "197",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Bespoke DJ Mix Commission",
+      "provider": {"@type": "Organization", "name": "Solcaya"},
+      "name": "Caya — 75-min Bespoke Mix",
+      "description": "75-minute bespoke DJ mix with full curation, custom intro & outro, stems included, unlimited revisions within original brief, 5-day priority delivery.",
+      "offers": {
+        "@type": "Offer",
+        "price": "397",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Bespoke DJ Mix Commission",
+      "provider": {"@type": "Organization", "name": "Solcaya"},
+      "name": "Solcaya — Multi-Mix Event Suite",
+      "description": "Two-plus hours or multi-mix event suites with white-label planner delivery, NDA on request, dedicated timeline.",
+      "offers": {
+        "@type": "Offer",
+        "price": "750",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "AudioObject",
+      "name": "Midnight Suite",
+      "description": "Deep house bespoke mix for private estate, 60 minutes",
+      "contentUrl": "https://solcaya.com/mixes/solcaya/midnight-suite.mp3",
+      "encodingFormat": "audio/mpeg",
+      "duration": "PT60M",
+      "creator": {"@type": "Organization", "name": "Solcaya"}
+    },
+    {
+      "@type": "AudioObject",
+      "name": "Golden Hour",
+      "description": "R&B bespoke mix for flagship evening, 45 minutes",
+      "contentUrl": "https://solcaya.com/mixes/solcaya/golden-hour.mp3",
+      "encodingFormat": "audio/mpeg",
+      "duration": "PT45M",
+      "creator": {"@type": "Organization", "name": "Solcaya"}
+    },
+    {
+      "@type": "AudioObject",
+      "name": "Velvet Rooftop",
+      "description": "Afrobeats bespoke mix for destination wedding, 75 minutes",
+      "contentUrl": "https://solcaya.com/mixes/solcaya/velvet-rooftop.mp3",
+      "encodingFormat": "audio/mpeg",
+      "duration": "PT75M",
+      "creator": {"@type": "Organization", "name": "Solcaya"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a custom DJ mix cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three tiers: Sol $197 (45 min), Caya $397 (75 min), Solcaya from $750 (2+ hours or multi-mix suites). Every tier includes a private taste consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a bespoke mix take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sol: 7 days. Caya: 5 days priority. Solcaya: dedicated timeline agreed during consultation. The delivery clock starts once your brief and 50% deposit are both received."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I request an NDA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. NDA available on request for any tier, included standard on Solcaya. Discretion is the house rule — commissions are never publicised, names never shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What genres do you work with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All genres. The studio curates by hand — deep house, R&B, Afrobeats, disco, techno, ambient, hip-hop, jazz, world, and cross-genre blends. Your taste consultation defines the palette."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you deliver white-label for planners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. White-label planner delivery is standard on Caya and Solcaya tiers. The mix arrives branded for your client, with no Solcaya attribution unless you request it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What formats do I receive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MP3 and WAV masters included on all tiers. Stems included on Caya and Solcaya. Clean edits available on request."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <style>
-:root{--bg:#0b0a08;--bg2:#14110c;--gold:#c8a45e;--gold-bright:#e3c07f;--gold-dim:rgba(200,164,94,.28);--gold-faint:rgba(200,164,94,.12);--ink:#ece4d3;--muted:#a79b83;--line:rgba(200,164,94,.22);--serif:Georgia,'Times New Roman','Didot',serif;--sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.7}
-body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(900px 500px at 50% -80px,rgba(200,164,94,.10),transparent 60%),radial-gradient(700px 500px at 85% 110%,rgba(200,164,94,.06),transparent 60%)}
-.wrap{max-width:1120px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
-section{padding:96px 0}
-.eyebrow{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
-h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.25}
-.rule{width:64px;height:1px;background:linear-gradient(90deg,var(--gold),transparent);margin:28px 0}
-.center{text-align:center}
-.center .rule{margin-left:auto;margin-right:auto;background:linear-gradient(90deg,transparent,var(--gold),transparent);width:120px}
-header.site{position:sticky;top:0;z-index:50;background:rgba(11,10,8,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--gold-faint)}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
-.wordmark{font-family:var(--serif);font-size:22px;letter-spacing:.5em;color:var(--ink);text-decoration:none;padding-left:.5em}
-.wordmark span{color:var(--gold)}
-.nav-links{display:flex;gap:34px}
-.nav-links a{color:var(--muted);text-decoration:none;font-size:12px;letter-spacing:.22em;text-transform:uppercase;transition:color .25s}
-.nav-links a:hover{color:var(--gold-bright)}
-.hero{min-height:86vh;display:flex;align-items:center;text-align:center;padding:120px 0 100px}
-.hero h1{font-size:clamp(56px,11vw,128px);letter-spacing:.28em;padding-left:.28em;color:var(--ink);text-shadow:0 0 60px rgba(200,164,94,.25)}
-.hero .sunkey{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:clamp(17px,2.6vw,22px);letter-spacing:.14em;margin-top:14px}
-.hero p.lede{max-width:620px;margin:34px auto 0;color:var(--muted);font-size:17px;font-weight:300}
-.hero p.lede strong{color:var(--ink);font-weight:400}
-.cta-row{display:flex;gap:18px;justify-content:center;margin-top:44px;flex-wrap:wrap}
-.btn{display:inline-block;padding:16px 38px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;text-decoration:none;cursor:pointer;border:1px solid var(--gold);transition:all .3s;font-family:var(--sans)}
-.btn-solid{background:linear-gradient(135deg,var(--gold-bright),var(--gold));color:#171208;border-color:transparent}
-.btn-solid:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(200,164,94,.28)}
-.btn-ghost{background:transparent;color:var(--gold)}
-.btn-ghost:hover{background:var(--gold-faint);color:var(--gold-bright)}
-.tiers-head h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
-.tiers-head p{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
-.tier-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:60px}
-.tier{background:linear-gradient(180deg,rgba(200,164,94,.07),rgba(200,164,94,.015));border:1px solid var(--line);padding:44px 36px;position:relative;display:flex;flex-direction:column;transition:transform .35s}
-.tier:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.5)}
-.tier .tier-name{font-family:var(--serif);font-size:30px;letter-spacing:.18em;color:var(--ink)}
-.tier .tier-price{font-family:var(--serif);font-size:40px;color:var(--gold);margin:10px 0 4px}
-.tier .tier-price small{font-size:15px;color:var(--muted);font-family:var(--sans)}
-.tier ul{list-style:none;margin:26px 0 34px;flex:1}
-.tier ul li{color:var(--muted);font-size:14.5px;padding:9px 0 9px 26px;position:relative;border-bottom:1px solid rgba(200,164,94,.08)}
-.tier ul li::before{content:"—";position:absolute;left:0;color:var(--gold)}
-.tier .tag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:#171208;font-size:10px;letter-spacing:.3em;text-transform:uppercase;padding:6px 18px;white-space:nowrap}
-.tier.featured{border-color:var(--gold-dim)}
-.tier-actions{display:flex;flex-direction:column;gap:12px}
-.tier-actions .btn{text-align:center;padding:14px 20px}
-.about h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
-.about .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
-.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:60px}
-.about-item{border-top:1px solid var(--line);padding-top:28px}
-.about-item h3{font-size:20px;letter-spacing:.08em;margin-bottom:12px}
-.about-item p{color:var(--muted);font-size:14.5px;font-weight:300}
-.samples{background:var(--bg2);border-top:1px solid var(--gold-faint);border-bottom:1px solid var(--gold-faint)}
-.samples h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
-.samples .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
-.sample-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:60px}
-.sample{background:linear-gradient(180deg,rgba(200,164,94,.05),rgba(200,164,94,.01));border:1px solid var(--line);padding:36px 28px;text-align:center;transition:transform .35s}
-.sample:hover{transform:translateY(-4px)}
-.sample-cover{font-family:var(--serif);font-size:44px;color:var(--gold);opacity:.7;margin-bottom:16px}
-.sample h3{font-size:18px;letter-spacing:.1em;margin-bottom:8px}
-.sample p{color:var(--muted);font-size:13.5px;font-weight:300;margin-bottom:18px}
-.mix-player{margin-top:18px;border:1px solid var(--gold-faint);background:rgba(14,12,9,.6);padding:16px}
-.mix-player audio{width:100%;height:36px;filter:invert(.9) sepia(.3) hue-rotate(-20deg) saturate(.8)}
-.mix-player audio::-webkit-media-controls-panel{background:rgba(14,12,9,.9)}
-.process{background:var(--bg2);border-top:1px solid var(--gold-faint);border-bottom:1px solid var(--gold-faint)}
-.process h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-top:60px}
-.step .numeral{font-family:var(--serif);font-size:44px;color:var(--gold);opacity:.85}
-.step h3{font-size:19px;letter-spacing:.1em;margin:14px 0 10px}
-.step p{color:var(--muted);font-size:14.5px;font-weight:300}
-.discretion .panel{border:1px solid var(--line);padding:64px 56px;text-align:center;background:radial-gradient(600px 300px at 50% 0%,rgba(200,164,94,.08),transparent 70%)}
-.discretion h2{font-size:clamp(30px,4.5vw,44px);letter-spacing:.08em}
-.discretion p{color:var(--muted);max-width:640px;margin:22px auto 0;font-weight:300;font-size:16px}
-.inquire h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
-.inquire .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
-form.brief{max-width:680px;margin:56px auto 0;text-align:left;border:1px solid var(--line);padding:52px;background:rgba(18,16,11,.6)}
-.field{margin-bottom:24px}
-.field label{display:block;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
-.field input,.field select,.field textarea{width:100%;background:#0e0c09;border:1px solid rgba(200,164,94,.25);color:var(--ink);padding:14px 16px;font-size:15px;font-family:var(--sans);border-radius:0}
-.field textarea{min-height:150px;resize:vertical}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold)}
-.radio-row{display:flex;gap:26px;flex-wrap:wrap}
-.radio-row label.radio{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted);cursor:pointer}
-.radio-row input[type=radio]{accent-color:var(--gold)}
-.form-status{margin-top:26px;font-size:15px}
-.form-status .ok{border:1px solid var(--gold-dim);background:rgba(200,164,94,.08);padding:26px 28px}
-.form-status .ok h3{font-size:22px;letter-spacing:.1em;color:var(--gold-bright);margin-bottom:10px}
-.form-status .bad{border:1px solid rgba(217,138,138,.4);background:rgba(138,74,74,.1);padding:26px 28px}
-.form-status .bad h3{font-size:20px;color:#d98a8a;margin-bottom:10px}
-.terms{background:var(--bg2);border-top:1px solid var(--gold-faint)}
-.terms h2{font-size:clamp(30px,4.5vw,44px);letter-spacing:.06em}
-.terms-list{max-width:720px;margin:40px auto 0;text-align:left}
-.terms-list li{list-style:none;color:var(--muted);font-size:15px;font-weight:300;padding:14px 0 14px 30px;border-bottom:1px solid rgba(200,164,94,.1);position:relative}
-.terms-list li::before{content:"✦";position:absolute;left:0;color:var(--gold);font-size:13px;top:18px}
-footer{border-top:1px solid var(--gold-faint);padding:56px 0;text-align:center}
-footer p{color:var(--muted);font-size:13px;margin-top:16px;font-weight:300}
-footer a{color:var(--gold);text-decoration:none}
-.social-row{display:flex;gap:22px;justify-content:center;margin-top:22px}
-.social-row a{color:var(--muted);display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--gold-faint);border-radius:50%;transition:all .25s}
-.social-row a:hover{color:var(--gold-bright);border-color:var(--gold-dim)}
+  :root{
+    --bg:#0b0a08;
+    --bg2:#14110c;
+    --card:#12100b;
+    --gold:#c8a45e;
+    --gold-bright:#e3c07f;
+    --gold-dim:rgba(200,164,94,.28);
+    --gold-faint:rgba(200,164,94,.12);
+    --ink:#ece4d3;
+    --muted:#a79b83;
+    --line:rgba(200,164,94,.22);
+    --serif:Georgia,'Times New Roman','Didot',serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--sans);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(900px 500px at 50% -80px, rgba(200,164,94,.10), transparent 60%),
+      radial-gradient(700px 500px at 85% 110%, rgba(200,164,94,.06), transparent 60%);
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  section{padding:96px 0}
+  .eyebrow{
+    font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:var(--gold);
+    margin-bottom:26px;
+  }
+  h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.25}
+  .rule{width:64px;height:1px;background:linear-gradient(90deg,var(--gold),transparent);margin:28px 0}
+  .center{text-align:center}
+  .center .rule{margin-left:auto;margin-right:auto;background:linear-gradient(90deg,transparent,var(--gold),transparent);width:120px}
+
+  /* ---------- header ---------- */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:rgba(11,10,8,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--gold-faint);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+  .wordmark{font-family:var(--serif);font-size:22px;letter-spacing:.5em;color:var(--ink);text-decoration:none;padding-left:.5em}
+  .wordmark span{color:var(--gold)}
+  .nav-links{display:flex;gap:34px}
+  .nav-links a{
+    color:var(--muted);text-decoration:none;font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    transition:color .25s;
+  }
+  .nav-links a:hover{color:var(--gold-bright)}
+  @media(max-width:640px){.nav-links{gap:20px}.nav-links a{font-size:11px;letter-spacing:.14em}}
+
+  /* ---------- hero ---------- */
+  .hero{min-height:86vh;display:flex;align-items:center;text-align:center;padding:120px 0 100px}
+  .hero h1{
+    font-size:clamp(56px,11vw,128px);letter-spacing:.28em;padding-left:.28em;color:var(--ink);
+    text-shadow:0 0 60px rgba(200,164,94,.25);
+  }
+  .hero .sunkey{
+    font-family:var(--serif);font-style:italic;color:var(--gold);
+    font-size:clamp(17px,2.6vw,22px);letter-spacing:.14em;margin-top:14px;
+  }
+  .hero p.lede{
+    max-width:620px;margin:34px auto 0;color:var(--muted);font-size:17px;font-weight:300;
+  }
+  .hero p.lede strong{color:var(--ink);font-weight:400}
+  .cta-row{display:flex;gap:18px;justify-content:center;margin-top:44px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;padding:16px 38px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;
+    text-decoration:none;cursor:pointer;border:1px solid var(--gold);transition:all .3s;font-family:var(--sans);
+  }
+  .btn-solid{background:linear-gradient(135deg,var(--gold-bright),var(--gold));color:#171208;border-color:transparent}
+  .btn-solid:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(200,164,94,.28)}
+  .btn-ghost{background:transparent;color:var(--gold)}
+  .btn-ghost:hover{background:var(--gold-faint);color:var(--gold-bright)}
+
+  /* ---------- tiers ---------- */
+  .tiers-head h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
+  .tiers-head p{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
+  .tier-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:60px}
+  @media(max-width:900px){.tier-grid{grid-template-columns:1fr;max-width:480px;margin-left:auto;margin-right:auto}}
+  .tier{
+    background:linear-gradient(180deg,rgba(200,164,94,.07),rgba(200,164,94,.015));
+    border:1px solid var(--line);padding:44px 36px;position:relative;
+    display:flex;flex-direction:column;transition:transform .35s,box-shadow .35s,border-color .35s;
+  }
+  .tier:hover{transform:translateY(-6px);border-color:var(--gold-dim);box-shadow:0 24px 60px rgba(0,0,0,.5)}
+  .tier .tier-name{font-family:var(--serif);font-size:30px;letter-spacing:.18em;color:var(--ink)}
+  .tier .tier-price{font-family:var(--serif);font-size:40px;color:var(--gold);margin:10px 0 4px}
+  .tier .tier-price small{font-size:15px;color:var(--muted);font-family:var(--sans);letter-spacing:.06em}
+  .tier ul{list-style:none;margin:26px 0 34px;flex:1}
+  .tier ul li{
+    color:var(--muted);font-size:14.5px;padding:9px 0 9px 26px;position:relative;font-weight:300;
+    border-bottom:1px solid rgba(200,164,94,.08);
+  }
+  .tier ul li::before{content:"—";position:absolute;left:0;color:var(--gold)}
+  .tier .tag{
+    position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+    background:var(--gold);color:#171208;font-size:10px;letter-spacing:.3em;text-transform:uppercase;
+    padding:6px 18px 6px 21px;white-space:nowrap;
+  }
+  .tier.featured{border-color:var(--gold-dim)}
+  .tier-actions{display:flex;flex-direction:column;gap:12px}
+  .tier-actions .btn{text-align:center;padding:14px 20px}
+  .tier-note{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;min-height:18px;font-style:italic}
+
+  /* ---------- process ---------- */
+  .process{background:var(--bg2);border-top:1px solid var(--gold-faint);border-bottom:1px solid var(--gold-faint)}
+  .process h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-top:60px}
+  @media(max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.steps{grid-template-columns:1fr}}
+  .step .numeral{font-family:var(--serif);font-size:44px;color:var(--gold);opacity:.85}
+  .step h3{font-size:19px;letter-spacing:.1em;margin:14px 0 10px}
+  .step p{color:var(--muted);font-size:14.5px;font-weight:300}
+
+  /* ---------- discretion ---------- */
+  .discretion .panel{
+    border:1px solid var(--line);padding:64px 56px;text-align:center;position:relative;
+    background:radial-gradient(600px 300px at 50% 0%,rgba(200,164,94,.08),transparent 70%);
+  }
+  @media(max-width:640px){.discretion .panel{padding:44px 28px}}
+  .discretion h2{font-size:clamp(30px,4.5vw,44px);letter-spacing:.08em}
+  .discretion p{color:var(--muted);max-width:640px;margin:22px auto 0;font-weight:300;font-size:16px}
+  .discretion p strong{color:var(--ink);font-weight:400}
+
+  /* ---------- form ---------- */
+  .inquire h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
+  .inquire .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
+  form.brief{
+    max-width:680px;margin:56px auto 0;text-align:left;
+    border:1px solid var(--line);padding:52px;background:rgba(18,16,11,.6);
+  }
+  @media(max-width:640px){form.brief{padding:32px 24px}}
+  .field{margin-bottom:24px}
+  .field label{display:block;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+  .field input,.field select,.field textarea{
+    width:100%;background:#0e0c09;border:1px solid rgba(200,164,94,.25);color:var(--ink);
+    padding:14px 16px;font-size:15px;font-family:var(--sans);border-radius:0;transition:border-color .25s;
+  }
+  .field textarea{min-height:150px;resize:vertical}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold)}
+  .field .err{display:none;color:#d98a8a;font-size:12.5px;margin-top:8px;letter-spacing:.04em}
+  .field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#8a4a4a}
+  .field.invalid .err{display:block}
+  .radio-row{display:flex;gap:26px;flex-wrap:wrap}
+  .radio-row label.radio{
+    display:flex;align-items:center;gap:10px;font-size:14px;letter-spacing:.04em;text-transform:none;color:var(--muted);cursor:pointer;
+  }
+  .radio-row input[type=radio]{accent-color:var(--gold);width:17px;height:17px}
+  .form-status{margin-top:26px;font-size:15px;line-height:1.8}
+  .form-status .ok{
+    border:1px solid var(--gold-dim);background:rgba(200,164,94,.08);padding:26px 28px;color:var(--ink);
+  }
+  .form-status .ok h3{font-size:22px;letter-spacing:.1em;color:var(--gold-bright);margin-bottom:10px}
+  .form-status .bad{
+    border:1px solid rgba(217,138,138,.4);background:rgba(138,74,74,.1);padding:26px 28px;color:var(--ink);
+  }
+  .form-status .bad h3{font-size:20px;letter-spacing:.08em;color:#d98a8a;margin-bottom:10px}
+  .form-status .bad .btn{margin-top:16px}
+  .hidden{display:none!important}
+  .submit-btn{width:100%;font-size:13px}
+
+  /* ---------- about ---------- */
+  .about h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
+  .about .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
+  .about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:60px}
+  @media(max-width:900px){.about-grid{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}}
+  .about-item{border-top:1px solid var(--line);padding-top:28px}
+  .about-item h3{font-size:20px;letter-spacing:.08em;margin-bottom:12px}
+  .about-item p{color:var(--muted);font-size:14.5px;font-weight:300}
+
+  /* ---------- samples / player ---------- */
+  .samples{background:var(--bg2);border-top:1px solid var(--gold-faint);border-bottom:1px solid var(--gold-faint)}
+  .samples h2{font-size:clamp(34px,5vw,52px);letter-spacing:.06em}
+  .samples .sub{color:var(--muted);max-width:560px;margin:18px auto 0;font-weight:300}
+  .sample-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:60px}
+  @media(max-width:900px){.sample-grid{grid-template-columns:1fr;max-width:400px;margin-left:auto;margin-right:auto}}
+  .sample{background:linear-gradient(180deg,rgba(200,164,94,.05),rgba(200,164,94,.01));border:1px solid var(--line);padding:36px 28px;text-align:center;transition:transform .35s,border-color .35s}
+  .sample:hover{transform:translateY(-4px);border-color:var(--gold-dim)}
+  .sample-cover{font-family:var(--serif);font-size:44px;color:var(--gold);opacity:.7;margin-bottom:16px}
+  .sample h3{font-size:18px;letter-spacing:.1em;margin-bottom:8px}
+  .sample p{color:var(--muted);font-size:13.5px;font-weight:300;margin-bottom:18px}
+
+  /* ===== PLAYER ===== */
+  .solcaya-player{
+    margin-top:18px;
+    border:1px solid var(--gold-faint);
+    background:rgba(14,12,9,.6);
+    padding:20px 16px;
+    text-align:left;
+  }
+  .player-inner{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+  .player-top{
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .player-play-btn{
+    flex:0 0 auto;
+    width:38px;height:38px;
+    border-radius:50%;
+    border:2px solid var(--gold);
+    background:transparent;
+    color:var(--gold);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    transition:all .25s;
+  }
+  .player-play-btn:hover{
+    background:var(--gold);
+    color:var(--bg);
+    box-shadow:0 0 20px rgba(200,164,94,.3);
+  }
+  .player-play-btn svg{
+    width:14px;height:14px;
+    margin-left:2px;
+  }
+  .player-play-btn.playing svg{
+    margin-left:0;
+  }
+  .player-info{
+    flex:1;
+    min-width:0;
+  }
+  .player-mix-title{
+    font-family:var(--serif);
+    font-size:15px;
+    letter-spacing:.06em;
+    color:var(--ink);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .player-mix-meta{
+    font-size:11px;
+    color:var(--muted);
+    letter-spacing:.04em;
+    margin-top:2px;
+  }
+  .player-time{
+    flex:0 0 auto;
+    font-family:var(--sans);
+    font-size:11px;
+    color:var(--muted);
+    letter-spacing:.04em;
+    font-variant-numeric:tabular-nums;
+  }
+  .player-progress{
+    position:relative;
+    height:4px;
+    background:rgba(200,164,94,.15);
+    cursor:pointer;
+    touch-action:none;
+  }
+  .player-progress-fill{
+    height:100%;
+    background:linear-gradient(90deg,var(--gold),var(--gold-bright));
+    width:0%;
+    transition:width .1s linear;
+  }
+  .player-progress-handle{
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:12px;height:12px;
+    border-radius:50%;
+    background:var(--gold-bright);
+    border:2px solid var(--bg);
+    box-shadow:0 0 8px rgba(200,164,94,.4);
+    left:0%;
+    transition:left .1s linear;
+  }
+  .player-controls{
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .player-volume-row{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-top:8px;
+    justify-content:flex-start;
+  }
+  .player-btn{
+    flex:0 0 auto;
+    width:26px;height:26px;
+    border:1px solid var(--gold-faint);
+    background:transparent;
+    color:var(--muted);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    transition:all .2s;
+    border-radius:0;
+  }
+  .player-btn:hover{
+    border-color:var(--gold);
+    color:var(--gold);
+  }
+  .player-btn svg{
+    width:11px;height:11px;
+  }
+  .player-btn.active{
+    border-color:var(--gold);
+    color:var(--gold);
+    background:rgba(200,164,94,.08);
+  }
+  .player-volume{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:4px;
+    margin-left:0;
+    max-width:50px;
+  }
+  .player-volume input[type="range"]{
+    flex:1;
+    height:3px;
+    appearance:none;
+    background:rgba(200,164,94,.2);
+    cursor:pointer;
+    border-radius:0;
+  }
+  .player-volume input[type="range"]::-webkit-slider-thumb{
+    appearance:none;
+    width:8px;height:8px;
+    border-radius:50%;
+    background:var(--gold);
+    border:1px solid var(--bg);
+    cursor:pointer;
+  }
+  .player-volume input[type="range"]::-moz-range-thumb{
+    width:8px;height:8px;
+    border-radius:50%;
+    background:var(--gold);
+    border:1px solid var(--bg);
+    cursor:pointer;
+  }
+  .player-eq{
+    display:flex;
+    align-items:flex-end;
+    gap:2px;
+    height:14px;
+    flex:0 0 auto;
+  }
+  .player-eq span{
+    flex:1;
+    min-width:2px;
+    background:var(--gold);
+    opacity:.5;
+    transform-origin:bottom;
+    animation:eq-bounce 1.2s ease-in-out infinite alternate;
+  }
+  .player-eq span:nth-child(1){animation-delay:0s}
+  .player-eq span:nth-child(2){animation-delay:.15s}
+  .player-eq span:nth-child(3){animation-delay:.3s}
+  .player-eq span:nth-child(4){animation-delay:.45s}
+  .player-eq span:nth-child(5){animation-delay:.6s}
+  @keyframes eq-bounce{
+    from{height:2px}
+    to{height:14px}
+  }
+  .player-eq.paused span{
+    animation-play-state:paused;
+    height:3px!important;
+    transition:height .3s;
+  }
+
+  /* ---------- terms ---------- */
+  .terms{background:var(--bg2);border-top:1px solid var(--gold-faint)}
+  .terms h2{font-size:clamp(30px,4.5vw,44px);letter-spacing:.06em}
+  .terms-list{max-width:720px;margin:40px auto 0;text-align:left}
+  .terms-list li{
+    list-style:none;color:var(--muted);font-size:15px;font-weight:300;padding:14px 0 14px 30px;
+    border-bottom:1px solid rgba(200,164,94,.1);position:relative;
+  }
+  .terms-list li::before{content:"✦";position:absolute;left:0;color:var(--gold);font-size:13px;top:18px}
+  .terms-list li strong{color:var(--ink);font-weight:400}
+  .terms-cta{margin-top:36px}
+  .terms-cta a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-dim);padding-bottom:3px;letter-spacing:.06em}
+  .terms-cta a:hover{color:var(--gold-bright);border-color:var(--gold-bright)}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--gold-faint);padding:56px 0;text-align:center}
+  footer .wordmark{font-size:18px}
+  footer p{color:var(--muted);font-size:13px;margin-top:16px;font-weight:300;letter-spacing:.06em}
+  footer a{color:var(--gold);text-decoration:none}
+  footer a:hover{color:var(--gold-bright)}
+  .social-row{display:flex;gap:22px;justify-content:center;margin-top:22px}
+  .social-row a{color:var(--muted);transition:color .25s;display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--gold-faint);border-radius:50%}
+  .social-row a:hover{color:var(--gold-bright);border-color:var(--gold-dim);background:var(--gold-faint)}
+
+/* ---------- FAQ ---------- */
+details{
+  background:rgba(18,16,11,.6);
+  border:1px solid var(--line);
+  border-radius:0;
+  margin:14px 0;
+  padding:20px 24px;
+  text-align:left;
+}
+details summary{
+  cursor:pointer;
+  font-family:var(--serif);
+  font-size:18px;
+  letter-spacing:.06em;
+  color:var(--ink);
+  list-style:none;
+  position:relative;
+  padding-right:36px;
+}
+details summary::-webkit-details-marker{display:none}
+details summary::after{
+  content:"+";
+  position:absolute;
+  right:0;
+  top:0;
+  font-family:var(--sans);
+  font-size:18px;
+  color:var(--gold);
+  transition:transform .25s;
+}
+details[open] summary::after{transform:rotate(45deg)}
+details p{
+  margin-top:14px;
+  color:var(--muted);
+  font-size:15px;
+  font-weight:300;
+  line-height:1.7;
+}
+details p strong{color:var(--ink);font-weight:400}
 </style>
 </head>
 <body>
+
 <header class="site">
-<div class="wrap nav">
-<a class="wordmark" href="#top">SOL<span>CAYA</span></a>
-<nav class="nav-links">
-<a href="#collection">Collection</a>
-<a href="#about">Studio</a>
-<a href="#process">Process</a>
-<a href="#inquire">Inquire</a>
-</nav>
-</div>
+  <div class="wrap nav">
+    <a class="wordmark" href="#top">SOL<span>CAYA</span></a>
+    <nav class="nav-links">
+      <a href="#collection">Collection</a>
+      <a href="#about">Studio</a>
+      <a href="#process">Process</a>
+      <a href="#inquire">Inquire</a>
+    </nav>
+  </div>
 </header>
+
 <section class="hero" id="top">
-<div class="wrap">
-<div class="eyebrow">A private studio for bespoke sound</div>
-<h1>SOLCAYA</h1>
-<div class="sunkey">sun key — the key of the sun</div>
-<div class="rule" style="margin:34px auto"></div>
-<p class="lede">Solcaya composes <strong>custom DJ mixes for a discerning few</strong> — weddings, private estates, flagship evenings. Each commission is built by hand around your taste, your story, and the exact mood your moment demands.</p>
-<div class="cta-row">
-<a class="btn btn-solid" href="#collection">Explore the collection</a>
-<a class="btn btn-ghost" href="#inquire">Make a private inquiry</a>
-</div>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">A private studio for bespoke sound</div>
+    <h1>SOLCAYA</h1>
+    <div class="sunkey">sun key — the key of the sun</div>
+    <div class="rule" style="margin:34px auto"></div>
+    <p class="lede">
+      Solcaya composes <strong>custom DJ mixes for a discerning few</strong> — weddings, private
+      estates, flagship evenings. Each commission is built by hand around your taste,
+      your story, and the exact mood your moment demands.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="#collection">Explore the collection</a>
+      <a class="btn btn-ghost" href="#inquire">Make a private inquiry</a>
+    </div>
+  </div>
 </section>
+
 <section class="tiers-head center" id="collection">
-<div class="wrap">
-<div class="eyebrow">The collection</div>
-<h2>Three commissions.<br>One standard: yours.</h2>
-<div class="rule"></div>
-<p>Every tier begins with a private taste consultation and ends with a mix that could only be yours.</p>
-<div class="tier-grid" style="text-align:left">
-<div class="tier">
-<div class="tier-name">Sol</div>
-<div class="tier-price">$197</div>
-<ul>
-<li>45-minute bespoke mix</li>
-<li>Private taste consultation</li>
-<li>MP3 + WAV masters</li>
-<li>Two revisions</li>
-<li>Seven-day delivery</li>
-</ul>
-<div class="tier-actions">
-<a class="btn btn-solid" href="https://buy.stripe.com/eVq9AU9FyaJa7HM32L93y02">Purchase Sol</a>
-<a class="btn btn-ghost inquire-btn" data-tier="Sol" href="#inquire">Inquire about Sol</a>
-</div>
-</div>
-<div class="tier featured">
-<div class="tag">Most commissioned</div>
-<div class="tier-name">Caya</div>
-<div class="tier-price">$397</div>
-<ul>
-<li>75-minute bespoke mix</li>
-<li>Full curation</li>
-<li>Custom intro &amp; outro</li>
-<li>Stems included</li>
-<li>Revisions until right</li>
-<li>Five-day priority delivery</li>
-</ul>
-<div class="tier-actions">
-<a class="btn btn-solid" href="https://buy.stripe.com/9B6eVecRK2cE4vAgTB93y01">Purchase Caya</a>
-<a class="btn btn-ghost inquire-btn" data-tier="Caya" href="#inquire">Inquire about Caya</a>
-</div>
-</div>
-<div class="tier">
-<div class="tier-name">Solcaya</div>
-<div class="tier-price"><small>from</small> $750</div>
-<ul>
-<li>Two-plus hours, or multi-mix suites</li>
-<li>White-label planner delivery</li>
-<li>NDA on request</li>
-<li>Dedicated timeline</li>
-</ul>
-<div class="tier-actions">
-<a class="btn btn-solid" href="https://buy.stripe.com/cNi28s8BuaJa7HM5aT93y00">Purchase Solcaya</a>
-<a class="btn btn-ghost inquire-btn" data-tier="Solcaya" href="#inquire">Inquire about Solcaya</a>
-</div>
-</div>
-</div>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">The collection</div>
+    <h2>Three commissions.<br>One standard: yours.</h2>
+    <div class="rule"></div>
+    <p>Every tier begins with a private taste consultation and ends with a mix that could only be yours. Choose a commission below, or inquire for something entirely bespoke.</p>
+
+    <div class="tier-grid" style="text-align:left">
+
+      <div class="tier">
+        <div class="tier-name">Sol</div>
+        <div class="tier-price">$197</div>
+        <ul>
+          <li>45-minute bespoke mix</li>
+          <li>Private taste consultation</li>
+          <li>MP3 + WAV masters</li>
+          <li>Two revisions</li>
+          <li>Seven-day delivery</li>
+        </ul>
+        <div class="tier-actions">
+          <a class="btn btn-solid purchase-btn" data-pay="PAYMENT_URL_SOL" href="#">Purchase Sol</a>
+          <a class="btn btn-ghost inquire-btn" data-tier="Sol" href="#inquire">Inquire about Sol</a>
+        </div>
+        <div class="tier-note" data-note></div>
+      </div>
+
+      <div class="tier featured">
+        <div class="tag">Most commissioned</div>
+        <div class="tier-name">Caya</div>
+        <div class="tier-price">$397</div>
+        <ul>
+          <li>75-minute bespoke mix</li>
+          <li>Full curation</li>
+          <li>Custom intro &amp; outro</li>
+          <li>Stems included</li>
+          <li>Revisions until right, within the original brief</li>
+          <li>Five-day priority delivery</li>
+        </ul>
+        <div class="tier-actions">
+          <a class="btn btn-solid purchase-btn" data-pay="PAYMENT_URL_CAYA" href="#">Purchase Caya</a>
+          <a class="btn btn-ghost inquire-btn" data-tier="Caya" href="#inquire">Inquire about Caya</a>
+        </div>
+        <div class="tier-note" data-note></div>
+      </div>
+
+      <div class="tier">
+        <div class="tier-name">Solcaya</div>
+        <div class="tier-price"><small>from</small> $750</div>
+        <ul>
+          <li>Two-plus hours, or multi-mix event suites</li>
+          <li>White-label planner delivery</li>
+          <li>NDA on request</li>
+          <li>Dedicated timeline</li>
+        </ul>
+        <div class="tier-actions">
+          <a class="btn btn-solid purchase-btn" data-pay="PAYMENT_URL_SOLCAYA" href="#">Purchase Solcaya</a>
+          <a class="btn btn-ghost inquire-btn" data-tier="Solcaya" href="#inquire">Inquire about Solcaya</a>
+        </div>
+        <div class="tier-note" data-note></div>
+      </div>
+
+    </div>
+  </div>
 </section>
+
 <section class="about" id="about">
-<div class="wrap">
-<div class="eyebrow">The studio</div>
-<h2>Sound, composed by hand.</h2>
-<div class="rule"></div>
-<p class="sub">Solcaya is a private studio for bespoke sound. No presets, no templates — every commission is built from a private conversation about taste, then composed, sculpted, and refined until it feels inevitable.</p>
-<div class="about-grid">
-<div class="about-item"><h3>Curated</h3><p>Every track is selected by hand — no algorithms, no auto-playlists.</p></div>
-<div class="about-item"><h3>Composed</h3><p>Pacing, texture, transitions — every element is deliberate.</p></div>
-<div class="about-item"><h3>Discreet</h3><p>Commissions are never publicised, names are never shared.</p></div>
-</div>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">The studio</div>
+    <h2>Sound, composed by hand.</h2>
+    <div class="rule"></div>
+    <p class="sub">Solcaya is a private studio for bespoke sound. No presets, no templates — every commission is built from a private conversation about taste, then composed, sculpted, and refined until it feels inevitable.</p>
+    <div class="about-grid">
+      <div class="about-item">
+        <h3>Curated</h3>
+        <p>Every track is selected by hand — no algorithms, no auto-playlists. The studio builds each mix around your brief, your taste, and the exact mood your moment demands.</p>
+      </div>
+      <div class="about-item">
+        <h3>Composed</h3>
+        <p>Pacing, texture, transitions — every element is deliberate. A Solcaya mix is not a playlist; it is a single continuous performance, built to carry a room from the first note to the last.</p>
+      </div>
+      <div class="about-item">
+        <h3>Discreet</h3>
+        <p>What happens in the studio stays in the studio. Commissions are never publicised, names are never shared, and white-label delivery is standard on signature work.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section class="samples" id="samples">
-<div class="wrap center">
-<div class="eyebrow">Listen</div>
-<h2>Selected works</h2>
-<div class="rule"></div>
-<p class="sub">A small selection from the studio's private catalogue.</p>
-<div class="sample-grid">
-<div class="sample">
-<div class="sample-cover">I.</div>
-<h3>Midnight Suite</h3>
-<p>Deep house · 60 min · private estate</p>
-<div class="mix-player">
-<audio controls preload="metadata" crossorigin="anonymous" src="/mixes/solcaya/midnight-suite.mp3"></audio>
-</div>
-</div>
-<div class="sample">
-<div class="sample-cover">II.</div>
-<h3>Golden Hour</h3>
-<p>R&B · 45 min · flagship evening</p>
-<div class="mix-player">
-<audio controls preload="metadata" crossorigin="anonymous" src="/mixes/solcaya/golden-hour.mp3"></audio>
-</div>
-</div>
-<div class="sample">
-<div class="sample-cover">III.</div>
-<h3>Velvet Rooftop</h3>
-<p>Afrobeats · 75 min · destination wedding</p>
-<div class="mix-player">
-<audio controls preload="metadata" crossorigin="anonymous" src="/mixes/solcaya/velvet-rooftop.mp3"></audio>
-</div>
-</div>
-</div>
-</div>
+  <div class="wrap center">
+    <div class="eyebrow">Listen</div>
+    <h2>Selected works</h2>
+    <div class="rule"></div>
+    <p class="sub">A small selection from the studio's private catalogue. Full commissions are available on inquiry.</p>
+    <div class="sample-grid">
+
+      <!-- MIX 1: Midnight Suite -->
+      <div class="sample">
+        <div class="sample-cover">I.</div>
+        <h3>Midnight Suite</h3>
+        <p>Deep house · 60 min · private estate</p>
+        <div class="solcaya-player" data-mix="midnight-suite">
+          <div class="player-inner">
+            <div class="player-top">
+              <button class="player-play-btn" aria-label="Play Midnight Suite">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <div class="player-info">
+                <div class="player-mix-title">Midnight Suite</div>
+                <div class="player-mix-meta">Deep house · 60 min</div>
+              </div>
+              <div class="player-time">
+                <span class="current">0:00</span> / <span class="duration">0:00</span>
+              </div>
+            </div>
+            <div class="player-progress">
+              <div class="player-progress-fill"></div>
+              <div class="player-progress-handle"></div>
+            </div>
+            <div class="player-controls">
+              <button class="player-btn player-prev" aria-label="Previous">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6V5zm3.5 7L19 5v14l-9.5-7z"/></svg>
+              </button>
+              <button class="player-btn player-next" aria-label="Next">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2V5zM5 5l9.5 7L5 19V5z"/></svg>
+              </button>
+              <button class="player-btn player-shuffle" aria-label="Shuffle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><path d="M4 20h9.5"/><polyline points="4 17 9 17 9 12"/><path d="M20 4h-9.5"/><polyline points="20 7 15 7 15 12"/></svg>
+              </button>
+              <button class="player-btn player-repeat" aria-label="Repeat">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              </button>
+              <div class="player-eq paused">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="player-volume-row">
+              <div class="player-volume">
+                <button class="player-btn player-mute" aria-label="Mute" style="width:22px;height:22px">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="10" height="10"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                </button>
+                <input type="range" min="0" max="1" step="0.05" value="1" class="player-volume-slider">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MIX 2: Golden Hour -->
+      <div class="sample">
+        <div class="sample-cover">II.</div>
+        <h3>Golden Hour</h3>
+        <p>R&B · 45 min · flagship evening</p>
+        <div class="solcaya-player" data-mix="golden-hour">
+          <div class="player-inner">
+            <div class="player-top">
+              <button class="player-play-btn" aria-label="Play Golden Hour">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <div class="player-info">
+                <div class="player-mix-title">Golden Hour</div>
+                <div class="player-mix-meta">R&B · 45 min</div>
+              </div>
+              <div class="player-time">
+                <span class="current">0:00</span> / <span class="duration">0:00</span>
+              </div>
+            </div>
+            <div class="player-progress">
+              <div class="player-progress-fill"></div>
+              <div class="player-progress-handle"></div>
+            </div>
+            <div class="player-controls">
+              <button class="player-btn player-prev" aria-label="Previous">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6V5zm3.5 7L19 5v14l-9.5-7z"/></svg>
+              </button>
+              <button class="player-btn player-next" aria-label="Next">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2V5zM5 5l9.5 7L5 19V5z"/></svg>
+              </button>
+              <button class="player-btn player-shuffle" aria-label="Shuffle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><path d="M4 20h9.5"/><polyline points="4 17 9 17 9 12"/><path d="M20 4h-9.5"/><polyline points="20 7 15 7 15 12"/></svg>
+              </button>
+              <button class="player-btn player-repeat" aria-label="Repeat">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              </button>
+              <div class="player-eq paused">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="player-volume-row">
+              <div class="player-volume">
+                <button class="player-btn player-mute" aria-label="Mute" style="width:22px;height:22px">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="10" height="10"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                </button>
+                <input type="range" min="0" max="1" step="0.05" value="1" class="player-volume-slider">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MIX 3: Velvet Rooftop -->
+      <div class="sample">
+        <div class="sample-cover">III.</div>
+        <h3>Velvet Rooftop</h3>
+        <p>Afrobeats · 75 min · destination wedding</p>
+        <div class="solcaya-player" data-mix="velvet-rooftop">
+          <div class="player-inner">
+            <div class="player-top">
+              <button class="player-play-btn" aria-label="Play Velvet Rooftop">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <div class="player-info">
+                <div class="player-mix-title">Velvet Rooftop</div>
+                <div class="player-mix-meta">Afrobeats · 75 min</div>
+              </div>
+              <div class="player-time">
+                <span class="current">0:00</span> / <span class="duration">0:00</span>
+              </div>
+            </div>
+            <div class="player-progress">
+              <div class="player-progress-fill"></div>
+              <div class="player-progress-handle"></div>
+            </div>
+            <div class="player-controls">
+              <button class="player-btn player-prev" aria-label="Previous">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6V5zm3.5 7L19 5v14l-9.5-7z"/></svg>
+              </button>
+              <button class="player-btn player-next" aria-label="Next">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2V5zM5 5l9.5 7L5 19V5z"/></svg>
+              </button>
+              <button class="player-btn player-shuffle" aria-label="Shuffle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><path d="M4 20h9.5"/><polyline points="4 17 9 17 9 12"/><path d="M20 4h-9.5"/><polyline points="20 7 15 7 15 12"/></svg>
+              </button>
+              <button class="player-btn player-repeat" aria-label="Repeat">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              </button>
+              <div class="player-eq paused">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="player-volume-row">
+              <div class="player-volume">
+                <button class="player-btn player-mute" aria-label="Mute" style="width:22px;height:22px">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="10" height="10"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+                </button>
+                <input type="range" min="0" max="1" step="0.05" value="1" class="player-volume-slider">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
+
 <section class="process" id="process">
-<div class="wrap">
-<div class="eyebrow">How a commission unfolds</div>
-<h2>The process</h2>
-<div class="rule"></div>
-<div class="steps">
-<div class="step"><div class="numeral">I.</div><h3>Consultation</h3><p>A private conversation about taste — the records you love, the mood you want.</p></div>
-<div class="step"><div class="numeral">II.</div><h3>Composition</h3><p>The studio curates, blends, and sculpts your mix by hand.</p></div>
-<div class="step"><div class="numeral">III.</div><h3>Refinement</h3><p>You listen. We revise. Nothing is delivered until it feels inevitable.</p></div>
-<div class="step"><div class="numeral">IV.</div><h3>Delivery</h3><p>Mastered files arrive on your dedicated timeline.</p></div>
-</div>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">How a commission unfolds</div>
+    <h2>The process</h2>
+    <div class="rule"></div>
+    <div class="steps">
+      <div class="step">
+        <div class="numeral">I.</div>
+        <h3>Consultation</h3>
+        <p>A private conversation about taste — the records you love, the mood you want, the moment your mix must carry.</p>
+      </div>
+      <div class="step">
+        <div class="numeral">II.</div>
+        <h3>Composition</h3>
+        <p>The studio curates, blends, and sculpts your mix by hand — pacing, texture, and transitions tuned to your brief.</p>
+      </div>
+      <div class="step">
+        <div class="numeral">III.</div>
+        <h3>Refinement</h3>
+        <p>You listen. We revise. Nothing is delivered until it feels inevitable.</p>
+      </div>
+      <div class="step">
+        <div class="numeral">IV.</div>
+        <h3>Delivery</h3>
+        <p>Mastered files arrive on your dedicated timeline — ready for your evening, or your planner&rsquo;s, white-label.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section class="discretion">
-<div class="wrap">
-<div class="panel">
-<div class="eyebrow">Discretion</div>
-<h2>The studio works quietly.</h2>
-<div class="rule" style="margin:28px auto"></div>
-<p>Commissions are <strong>never publicised</strong> and names are <strong>never shared</strong>. White-label delivery to planners is standard, and an NDA is available on request.</p>
-</div>
-</div>
+  <div class="wrap">
+    <div class="panel">
+      <div class="eyebrow">Discretion</div>
+      <h2>The studio works quietly.</h2>
+      <div class="rule" style="margin:28px auto"></div>
+      <p>
+        Commissions are <strong>never publicised</strong> and names are <strong>never shared</strong>.
+        White-label delivery to planners is standard on signature work, and an NDA is
+        available on request. Discretion is not an upgrade here — <strong>it is the house rule.</strong>
+      </p>
+    </div>
+  </div>
 </section>
+
 <section class="inquire center" id="inquire">
-<div class="wrap">
-<div class="eyebrow">Private inquiry</div>
-<h2>Begin your commission</h2>
-<div class="rule"></div>
-<p class="sub">Tell the studio about your occasion. Every inquiry is read personally and answered discreetly.</p>
-<form class="brief" id="inquiry-form" novalidate>
-<div class="field"><label>Your name</label><input type="text" name="name" autocomplete="name" placeholder="How should the studio address you?"></div>
-<div class="field"><label>Email</label><input type="email" name="email" autocomplete="email" placeholder="you@example.com"></div>
-<div class="field"><label>Event date</label><input type="date" name="event_date"></div>
-<div class="field"><label>Commission</label><select name="tier"><option value="">Select a commission…</option><option>Sol — $197</option><option>Caya — $397</option><option>Solcaya — from $750</option><option>Not sure yet</option></select></div>
-<div class="field"><label>Your vision</label><textarea name="vision" placeholder="The occasion, the mood, the records you love…"></textarea></div>
-<button type="submit" class="btn btn-solid submit-btn">Send private inquiry</button>
-<div class="form-status" id="form-status"></div>
-</form>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">Private inquiry</div>
+    <h2>Begin your commission</h2>
+    <div class="rule"></div>
+    <p class="sub">Tell the studio about your occasion. Every inquiry is read personally and answered discreetly — usually within one business day.</p>
+
+    <form class="brief" id="inquiry-form" novalidate>
+      <div class="field" data-field="name">
+        <label for="f-name">Your name</label>
+        <input type="text" id="f-name" name="name" autocomplete="name" placeholder="How should the studio address you?">
+        <div class="err">Please share your name.</div>
+      </div>
+
+      <div class="field" data-field="email">
+        <label for="f-email">Email</label>
+        <input type="email" id="f-email" name="email" autocomplete="email" placeholder="you@example.com">
+        <div class="err">Please enter a valid email address.</div>
+      </div>
+
+      <div class="field" data-field="date">
+        <label for="f-date">Event date <span style="opacity:.6;letter-spacing:.1em">(if applicable)</span></label>
+        <input type="date" id="f-date" name="event_date">
+      </div>
+
+      <div class="field" data-field="tier">
+        <label for="f-tier">Commission</label>
+        <select id="f-tier" name="tier">
+          <option value="">Select a commission…</option>
+          <option value="Sol — $197">Sol — $197</option>
+          <option value="Caya — $397">Caya — $397</option>
+          <option value="Solcaya — from $750">Solcaya — from $750</option>
+          <option value="Not sure yet">Not sure yet — advise me</option>
+        </select>
+        <div class="err">Please choose a commission.</div>
+      </div>
+
+      <div class="field" data-field="nda">
+        <label>NDA preference</label>
+        <div class="radio-row">
+          <label class="radio"><input type="radio" name="nda" value="No preference" checked> No preference</label>
+          <label class="radio"><input type="radio" name="nda" value="NDA preferred"> NDA preferred</label>
+          <label class="radio"><input type="radio" name="nda" value="NDA required"> NDA required</label>
+        </div>
+      </div>
+
+      <div class="field" data-field="vision">
+        <label for="f-vision">Your vision</label>
+        <textarea id="f-vision" name="vision" placeholder="The occasion, the mood, the records you love, the moments the mix must carry…"></textarea>
+        <div class="err">Please share a little more about your vision (a sentence or two).</div>
+      </div>
+
+      <button type="submit" class="btn btn-solid submit-btn" id="submit-btn">Send private inquiry</button>
+      <div class="form-status" id="form-status" aria-live="polite"></div>
+    </form>
+  </div>
 </section>
+
 <section class="terms center">
-<div class="wrap">
-<div class="eyebrow">Terms of service</div>
-<h2>Agreed before we begin</h2>
-<div class="rule"></div>
-<ul class="terms-list">
-<li><strong>A 50% non-refundable deposit</strong> reserves your commission; the balance is due before final delivery.</li>
-<li><strong>Revisions follow your tier;</strong> the delivery clock starts once your brief and deposit are both received.</li>
-<li><strong>Mixes are licensed for private use;</strong> clean edits are available on request.</li>
-</ul>
-</div>
+  <div class="wrap">
+    <div class="eyebrow">Terms of service</div>
+    <h2>Agreed before we begin</h2>
+    <div class="rule"></div>
+    <ul class="terms-list">
+      <li><strong>A 50% non-refundable deposit</strong> reserves your commission; the balance is due before final delivery.</li>
+      <li><strong>Revisions follow your tier;</strong> the delivery clock starts once your brief and deposit are both received.</li>
+      <li><strong>Mixes are licensed for private use;</strong> clean edits are available on request.</li>
+      <li><strong>NDA and white-label planner delivery</strong> available as described in your commission.</li>
+    </ul>
+    <div class="terms-cta">
+      <a href="terms/terms.html" target="_blank" rel="noopener">Read the full Terms of Service</a>
+    </div>
+  </div>
 </section>
+
+<section class="faq center" id="faq">
+  <div class="wrap">
+    <div class="eyebrow">Common questions</div>
+    <h2>Everything you need to know</h2>
+    <div class="rule"></div>
+    
+    <details>
+      <summary>How much does a custom DJ mix cost?</summary>
+      <p>Three tiers: <strong>Sol</strong> $197 (45 min), <strong>Caya</strong> $397 (75 min), <strong>Solcaya</strong> from $750 (2+ hours or multi-mix suites). Every tier includes a private taste consultation.</p>
+    </details>
+    <details>
+      <summary>How long does a bespoke mix take?</summary>
+      <p>Sol: 7 days. Caya: 5 days priority. Solcaya: dedicated timeline agreed during consultation. The delivery clock starts once your brief and 50% deposit are both received.</p>
+    </details>
+    <details>
+      <summary>Can I request an NDA?</summary>
+      <p>Yes. NDA available on request for any tier, included standard on Solcaya. Discretion is the house rule — commissions are never publicised, names never shared.</p>
+    </details>
+    <details>
+      <summary>What genres do you work with?</summary>
+      <p>All genres. The studio curates by hand — deep house, R&B, Afrobeats, disco, techno, ambient, hip-hop, jazz, world, and cross-genre blends. Your taste consultation defines the palette.</p>
+    </details>
+    <details>
+      <summary>Do you deliver white-label for planners?</summary>
+      <p>Yes. White-label planner delivery is standard on Caya and Solcaya tiers. The mix arrives branded for your client, with no Solcaya attribution unless you request it.</p>
+    </details>
+    <details>
+      <summary>What formats do I receive?</summary>
+      <p>MP3 and WAV masters included on all tiers. Stems included on Caya and Solcaya. Clean edits available on request.</p>
+    </details>
+  </div>
+</section>
+
 <footer>
-<div class="wrap">
-<a class="wordmark" href="#top">SOL<span>CAYA</span></a>
-<div class="social-row">
-<a href="https://instagram.com/solcaya.studio" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
-<a href="https://tiktok.com/@solcaya.studio" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
-</div>
-<p>Private inquiries — <a href="mailto:hello@solcaya.com">hello@solcaya.com</a></p>
-<p>&copy; 2026 Solcaya. All commissions private.</p>
-</div>
+  <div class="wrap">
+    <a class="wordmark" href="#top">SOL<span>CAYA</span></a>
+    <div class="social-row">
+      <a href="https://instagram.com/solcaya.studio" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://tiktok.com/@solcaya.studio" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 2h3.1c.1 1.8 1 3.6 2.7 4.7 1 .6 2.1 1 3.3 1v3.2c-1.3 0-2.5-.3-3.6-.8v5.9c0 4.2-2.9 7.2-7 7.2-4 0-7-3-7-7.1 0-4.3 3.3-7.5 7.6-7v3.4c-2.3.1-4 1.7-4 3.9 0 2.3 1.8 4 4.1 4 2.4 0 3.9-1.7 3.9-4.3V2z"/></svg>
+      </a>
+    </div>
+    <p>Private inquiries — <a href="mailto:hello@solcaya.com">hello@solcaya.com</a></p>
+    <p>&copy; 2026 Solcaya. All commissions private.</p>
+  </div>
 </footer>
+
+<audio id="solcaya-audio" preload="metadata" crossorigin="anonymous"></audio>
+
 <script>
-document.getElementById('inquiry-form').addEventListener('submit',function(e){
-e.preventDefault();
-var f=this,btn=f.querySelector('button'),st=document.getElementById('form-status'),v={};
-new FormData(f).forEach(function(val,key){v[key]=val});
-if(!v.name||v.name.length<2){alert('Please share your name.');return}
-if(!v.email||!v.email.includes('@')){alert('Please enter a valid email.');return}
-if(!v.vision||vvision.length<20){alert('Please share a little more about your vision.');return}
-btn.disabled=true;btn.textContent='Sending…';
-fetch('https://formsubmit.co/ajax/hello@solcaya.com',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({
-name:v.name,email:v.email,'event date':v.event_date||'—',commission:v.tier||'—','NDA preference':'No preference',vision:v.vision,
-_subject:'New Solcaya private inquiry',_template:'table',_captcha:'false',_replyto:v.email
-}).toString()}).then(function(r){return r.json().then(function(d){return{ok:r.ok,d:d}}).catch(function(){return{ok:r.ok,d:null}})}).then(function(r){
-var s=r.d&&r.d.success;
-if(r.ok&&s){st.innerHTML='<div class="ok"><h3>Received with thanks.</h3><p>Expect a discreet reply at <strong>'+v.email+'</strong> within one business day.</p></div>';f.reset()}
-else{st.innerHTML='<div class="bad"><h3>Not confirmed — please email directly.</h3><p>Connection issue. Email <strong>hello@solcaya.com</strong></p></div>'}
-}).catch(function(){st.innerHTML='<div class="bad"><h3>Not confirmed.</h3><p>Please email <strong>hello@solcaya.com</strong></p></div>'}).finally(function(){btn.disabled=false;btn.textContent='Send private inquiry'})
-});
+/* ============================================================
+   SOLCAYA PLAYER
+   ============================================================ */
+(function(){
+  "use strict";
+
+  const audio = document.getElementById('solcaya-audio');
+  const players = document.querySelectorAll('.solcaya-player');
+  let activePlayer = null;
+  let activeMixId = null;
+
+  // Mix audio sources — same-origin to avoid SSL/CORS issues
+  const MIX_SOURCES = {
+    'midnight-suite': '/mixes/solcaya/midnight-suite.mp3',
+    'golden-hour':    '/mixes/solcaya/golden-hour.mp3',
+    'velvet-rooftop': '/mixes/solcaya/velvet-rooftop.mp3'
+  };
+
+  function formatTime(seconds){
+    if(isNaN(seconds) || !isFinite(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return mins + ':' + secs.toString().padStart(2, '0');
+  }
+
+  function initPlayer(playerEl){
+    const mixId = playerEl.dataset.mix;
+    const playBtn = playerEl.querySelector('.player-play-btn');
+    const progressBar = playerEl.querySelector('.player-progress');
+    const progressFill = playerEl.querySelector('.player-progress-fill');
+    const progressHandle = playerEl.querySelector('.player-progress-handle');
+    const currentTimeEl = playerEl.querySelector('.current');
+    const durationEl = playerEl.querySelector('.duration');
+    const eqBars = playerEl.querySelector('.player-eq');
+    const volumeSlider = playerEl.querySelector('.player-volume-slider');
+    const muteBtn = playerEl.querySelector('.player-mute');
+    const shuffleBtn = playerEl.querySelector('.player-shuffle');
+    const repeatBtn = playerEl.querySelector('.player-repeat');
+    const prevBtn = playerEl.querySelector('.player-prev');
+    const nextBtn = playerEl.querySelector('.player-next');
+
+    let isPlaying = false;
+    let shuffleMode = false;
+    let repeatMode = 'off'; // off, all, one
+
+    // Play/Pause
+    playBtn.addEventListener('click', function(){
+      if(activePlayer && activePlayer !== playerEl){
+        // Pause other players
+        document.querySelectorAll('.solcaya-player').forEach(p => {
+          if(p !== playerEl){
+            const otherAudio = document.getElementById('solcaya-audio');
+            // We share one audio element, so just pause
+          }
+        });
+      }
+
+      if(isPlaying){
+        audio.pause();
+        isPlaying = false;
+        playBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+        playBtn.classList.remove('playing');
+        eqBars.classList.add('paused');
+      } else {
+        if(activeMixId !== mixId){
+          audio.src = MIX_SOURCES[mixId];
+          activeMixId = mixId;
+          audio.load();
+          // Wait for metadata to load before playing
+          audio.addEventListener('loadedmetadata', function oncePlay(){
+            audio.removeEventListener('loadedmetadata', oncePlay);
+            audio.play().then(() => {
+              isPlaying = true;
+              activePlayer = playerEl;
+              playBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
+              playBtn.classList.add('playing');
+              eqBars.classList.remove('paused');
+            }).catch(err => console.warn('Play failed:', err));
+          }, { once: true });
+        } else {
+          audio.play().then(() => {
+            isPlaying = true;
+            activePlayer = playerEl;
+            playBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
+            playBtn.classList.add('playing');
+            eqBars.classList.remove('paused');
+          }).catch(err => console.warn('Play failed:', err));
+        }
+      }
+    });
+
+    // Progress bar click
+    progressBar.addEventListener('click', function(e){
+      const rect = progressBar.getBoundingClientRect();
+      const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      if(audio.duration && isFinite(audio.duration)){
+        audio.currentTime = pct * audio.duration;
+      }
+    });
+
+    // Volume
+    volumeSlider.addEventListener('input', function(){
+      audio.volume = parseFloat(volumeSlider.value);
+      audio.muted = false;
+    });
+
+    muteBtn.addEventListener('click', function(){
+      audio.muted = !audio.muted;
+      if(audio.muted){
+        muteBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>';
+      } else {
+        muteBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+      }
+    });
+
+    // Shuffle
+    shuffleBtn.addEventListener('click', function(){
+      shuffleMode = !shuffleMode;
+      shuffleBtn.classList.toggle('active', shuffleMode);
+    });
+
+    // Repeat
+    repeatBtn.addEventListener('click', function(){
+      const modes = ['off', 'all', 'one'];
+      const idx = modes.indexOf(repeatMode);
+      repeatMode = modes[(idx + 1) % modes.length];
+      repeatBtn.classList.toggle('active', repeatMode !== 'off');
+      repeatBtn.title = 'Repeat: ' + repeatMode;
+    });
+
+    // Prev/Next (within this player for now)
+    prevBtn.addEventListener('click', function(){
+      if(audio.currentTime > 3){
+        audio.currentTime = 0;
+      }
+      // Could navigate to previous mix
+    });
+
+    nextBtn.addEventListener('click', function(){
+      // Could navigate to next mix
+    });
+
+    // Audio events
+    audio.addEventListener('timeupdate', function(){
+      if(activeMixId === mixId){
+        const dur = audio.duration;
+        if(dur && isFinite(dur)){
+          const pct = (audio.currentTime / dur) * 100 || 0;
+          progressFill.style.width = pct + '%';
+          progressHandle.style.left = pct + '%';
+          durationEl.textContent = formatTime(dur);
+        }
+        currentTimeEl.textContent = formatTime(audio.currentTime);
+      }
+    });
+
+    audio.addEventListener('loadedmetadata', function(){
+      if(activeMixId === mixId && audio.duration && isFinite(audio.duration)){
+        durationEl.textContent = formatTime(audio.duration);
+      }
+    });
+
+    audio.addEventListener('durationchange', function(){
+      if(activeMixId === mixId && audio.duration && isFinite(audio.duration)){
+        durationEl.textContent = formatTime(audio.duration);
+      }
+    });
+
+    audio.addEventListener('ended', function(){
+      if(repeatMode === 'one'){
+        audio.currentTime = 0;
+        audio.play();
+      } else if(repeatMode === 'all'){
+        audio.currentTime = 0;
+        audio.play();
+      } else {
+        isPlaying = false;
+        playBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+        playBtn.classList.remove('playing');
+        eqBars.classList.add('paused');
+      }
+    });
+  }
+
+  // Init all players
+  players.forEach(initPlayer);
+
+  /* ============================================================
+     SOLCAYA CONFIG — edit these values
+     ============================================================ */
+  const SOLCAYA_CONFIG = {
+    FORMSUBMIT_URL: "https://formsubmit.co/ajax/hello@solcaya.com",
+    PAYMENT_URL_SOL:     "https://buy.stripe.com/eVq9AU9FyaJa7HM32L93y02",
+    PAYMENT_URL_CAYA:    "https://buy.stripe.com/9B6eVecRK2cE4vAgTB93y01",
+    PAYMENT_URL_SOLCAYA: "https://buy.stripe.com/cNi28s8BuaJa7HM5aT93y00"
+  };
+
+  /* ---------- purchase buttons ---------- */
+  document.querySelectorAll(".purchase-btn").forEach(function(btn){
+    const url = SOLCAYA_CONFIG[btn.getAttribute("data-pay")];
+    const note = btn.closest(".tier").querySelector("[data-note]");
+    if (url && url !== "#") {
+      btn.href = url;
+    } else {
+      btn.addEventListener("click", function(e){
+        e.preventDefault();
+        if (note) note.textContent = "Online checkout is being prepared — please use the inquiry form below.";
+      });
+    }
+  });
+
+  /* ---------- tier prefill ---------- */
+  const tierSelect = document.getElementById("f-tier");
+  document.querySelectorAll(".inquire-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      const tier = btn.getAttribute("data-tier");
+      Array.from(tierSelect.options).forEach(function(opt){
+        if (opt.value.indexOf(tier) === 0) tierSelect.value = opt.value;
+      });
+      setTimeout(function(){ document.getElementById("f-name").focus({preventScroll:true}); }, 700);
+    });
+  });
+
+  /* ---------- validation ---------- */
+  const form = document.getElementById("inquiry-form");
+  const status = document.getElementById("form-status");
+  const submitBtn = document.getElementById("submit-btn");
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+  function setInvalid(name, bad){
+    const field = form.querySelector('[data-field="'+name+'"]');
+    if (field) field.classList.toggle("invalid", bad);
+    return !bad;
+  }
+  function values(){
+    const nda = form.querySelector('input[name="nda"]:checked');
+    return {
+      name:  document.getElementById("f-name").value.trim(),
+      email: document.getElementById("f-email").value.trim(),
+      date:  document.getElementById("f-date").value,
+      tier:  tierSelect.value,
+      nda:   nda ? nda.value : "No preference",
+      vision: document.getElementById("f-vision").value.trim()
+    };
+  }
+  function validate(v){
+    let ok = true;
+    ok = setInvalid("name",  v.name.length < 2) && ok;
+    ok = setInvalid("email", !emailRe.test(v.email)) && ok;
+    ok = setInvalid("tier",  v.tier === "") && ok;
+    ok = setInvalid("vision", v.vision.length < 20) && ok;
+    return ok;
+  }
+  form.addEventListener("input", function(e){
+    const f = e.target.closest(".field");
+    if (f) f.classList.remove("invalid");
+  });
+
+  function downloadBrief(v){
+    const text =
+      "SOLCAYA — PRIVATE INQUIRY BRIEF\n" +
+      "================================\n\n" +
+      "Name:  " + v.name + "\n" +
+      "Email: " + v.email + "\n" +
+      "Event date: " + (v.date || "—") + "\n" +
+      "Commission: " + v.tier + "\n" +
+      "NDA: " + v.nda + "\n\n" +
+      "Vision:\n" + v.vision + "\n\n" +
+      "—\nPlease email this brief to hello@solcaya.com\n";
+    const blob = new Blob([text], {type:"text/plain;charset=utf-8"});
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "solcaya-inquiry-brief.txt";
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 800);
+  }
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    status.innerHTML = "";
+    const v = values();
+    if (!validate(v)) {
+      const firstBad = form.querySelector(".field.invalid input, .field.invalid select, .field.invalid textarea");
+      if (firstBad) firstBad.focus();
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Sending…";
+
+    const body = new URLSearchParams();
+    body.append("name", v.name);
+    body.append("email", v.email);
+    body.append("event date", v.date || "—");
+    body.append("commission", v.tier);
+    body.append("NDA preference", v.nda);
+    body.append("vision", v.vision);
+    body.append("_subject", "New Solcaya private inquiry");
+    body.append("_template", "table");
+    body.append("_captcha", "false");
+    body.append("_replyto", v.email);
+
+    fetch(SOLCAYA_CONFIG.FORMSUBMIT_URL, {
+      method: "POST",
+      headers: {"Content-Type": "application/x-www-form-urlencoded"},
+      body: body.toString()
+    }).then(function(res){
+      return res.json().then(function(data){
+        return {httpOk: res.ok, data: data};
+      }).catch(function(){
+        return {httpOk: res.ok, data: null};
+      });
+    }).then(function(result){
+      const d = result.data;
+      const explicitSuccess = result.httpOk && d && (d.success === true || d.success === "true");
+      if (explicitSuccess) {
+        status.innerHTML =
+          '<div class="ok"><h3>Received with thanks.</h3>' +
+          "<p>Your inquiry has reached the studio. Expect a discreet reply at <strong>" +
+          v.email.replace(/</g,"&lt;") +
+          "</strong>, usually within one business day.</p></div>";
+        form.querySelectorAll("input, select, textarea").forEach(function(el){
+          if (el.type !== "radio") el.value = "";
+        });
+        const firstRadio = form.querySelector('input[name="nda"]');
+        if (firstRadio) firstRadio.checked = true;
+      } else {
+        status.innerHTML =
+          '<div class="bad"><h3>Not confirmed.</h3>' +
+          "<p>Your inquiry could not be confirmed just now. Nothing you wrote is lost — " +
+          "download your brief below and email it to <strong>hello@solcaya.com</strong>, " +
+          "and the studio will take it from there.</p>" +
+          '<button type="button" class="btn btn-ghost" id="dl-brief">Download my brief</button></div>';
+        document.getElementById("dl-brief").addEventListener("click", function(){ downloadBrief(v); });
+      }
+    }).catch(function(){
+      status.innerHTML =
+        '<div class="bad"><h3>Not confirmed.</h3>' +
+        "<p>Your inquiry could not be confirmed just now — the connection was interrupted. " +
+        "Nothing you wrote is lost: download your brief below and email it to " +
+        "<strong>hello@solcaya.com</strong>.</p>" +
+        '<button type="button" class="btn btn-ghost" id="dl-brief">Download my brief</button></div>';
+      document.getElementById("dl-brief").addEventListener("click", function(){ downloadBrief(v); });
+    }).finally(function(){
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Send private inquiry";
+    });
+  });
+})();
 </script>
 </body>
 </html>
