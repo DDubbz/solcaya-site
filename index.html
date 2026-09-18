@@ -1082,11 +1082,11 @@ details p strong{color:var(--ink);font-weight:400}
   let activePlayer = null;
   let activeMixId = null;
 
-  // Mix audio sources — same-origin to avoid SSL/CORS issues
+  // Mix audio sources — R2 object storage for global CDN delivery
   const MIX_SOURCES = {
-    'midnight-suite': '/mixes/solcaya/midnight-suite.mp3',
-    'golden-hour':    '/mixes/solcaya/golden-hour.mp3',
-    'velvet-rooftop': '/mixes/solcaya/velvet-rooftop.mp3'
+    'midnight-suite': 'https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/midnight-suite.mp3',
+    'golden-hour':    'https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/golden-hour.mp3',
+    'velvet-rooftop': 'https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/velvet-rooftop.mp3'
   };
 
   function formatTime(seconds){
