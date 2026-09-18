@@ -573,6 +573,36 @@
   .social-row a{color:var(--muted);transition:color .25s;display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--gold-faint);border-radius:50%}
   .social-row a:hover{color:var(--gold-bright);border-color:var(--gold-dim);background:var(--gold-faint)}
 
+/* ---------- Proof / Testimonials ---------- */
+.proof-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:26px;
+  margin-top:40px;
+}
+@media(max-width:900px){.proof-grid{grid-template-columns:1fr;max-width:640px;margin-left:auto;margin-right:auto}}
+.proof-item{
+  background:rgba(18,16,11,.6);
+  border:1px solid var(--line);
+  padding:32px 28px;
+  text-align:left;
+  transition:transform .35s,border-color .35s;
+}
+.proof-item:hover{transform:translateY(-4px);border-color:var(--gold-dim)}
+.proof-item p{
+  font-style:italic;
+  color:var(--ink);
+  font-size:15px;
+  line-height:1.7;
+  margin-bottom:18px;
+}
+.proof-item footer{
+  font-family:var(--sans);
+  font-size:12.5px;
+  color:var(--muted);
+  letter-spacing:.04em;
+}
+
 /* ---------- FAQ ---------- */
 details{
   background:rgba(18,16,11,.6);
@@ -928,6 +958,28 @@ details p strong{color:var(--ink);font-weight:400}
         <h3>Delivery</h3>
         <p>Mastered files arrive on your dedicated timeline — ready for your evening, or your planner&rsquo;s, white-label.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof center" id="proof">
+  <div class="wrap">
+    <div class="eyebrow">Social proof</div>
+    <h2>What clients say</h2>
+    <div class="rule"></div>
+    <div class="proof-grid">
+      <blockquote class="proof-item">
+        <p>"The studio captured the exact energy we wanted for our destination wedding. The mix flowed perfectly from ceremony to after-party — guests still ask about it."</p>
+        <footer>— Sarah & Marcus, Destination Wedding, Costa Rica</footer>
+      </blockquote>
+      <blockquote class="proof-item">
+        <p>"White-label delivery was seamless. Our planner delivered the mix as their own curation, and the client had no idea it was commissioned. Professional, discreet, flawless."</p>
+        <footer>— J. Rivera, Luxury Event Planner, Miami</footer>
+      </blockquote>
+      <blockquote class="proof-item">
+        <p>"The consultation changed how I think about music for events. They didn't just ask what I liked — they asked how I wanted people to *feel*. The result was emotional architecture."</p>
+        <footer>— D. Chen, Private Estate Event, Malibu</footer>
+      </blockquote>
     </div>
   </div>
 </section>
