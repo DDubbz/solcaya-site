@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://solcaya.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://solcaya.com/#collection</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://solcaya.com/#about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solcaya.com/#process</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solcaya.com/#inquire</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://solcaya.com/#faq</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://solcaya.com/journal/how-much-does-a-custom-dj-mix-cost.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://solcaya.com/journal/bespoke-mix-vs-playlist.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://solcaya.com/journal/music-for-private-estates.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://solcaya.com/journal/wedding-mix-timeline.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://solcaya.com/terms/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://solcaya.com/journal/how-to-choose-your-first-dance-song.html</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://solcaya.com/journal/how-much-does-a-custom-dj-mix-cost</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://solcaya.com/journal/bespoke-mix-vs-playlist</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://solcaya.com/journal/music-for-private-estates</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://solcaya.com/journal/wedding-mix-timeline</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://solcaya.com/terms/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://solcaya.com/journal/how-to-choose-your-first-dance-song</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
