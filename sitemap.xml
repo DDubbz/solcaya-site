@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://solcaya.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://solcaya.com/journal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://solcaya.com/journal/how-much-does-a-custom-dj-mix-cost</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://solcaya.com/journal/bespoke-mix-vs-playlist</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://solcaya.com/journal/music-for-private-estates</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
