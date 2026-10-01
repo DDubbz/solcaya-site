@@ -1,31 +1,28 @@
 # Solcaya — Private Studio for Bespoke DJ Mixes
 
-## Overview
-Solcaya composes custom DJ mixes for weddings, private estates, and flagship evenings. Each commission is built by hand around the client's taste, story, and the exact mood their moment demands.
+Solcaya is a private studio composing bespoke DJ mixes by hand for weddings, private estates, and flagship evenings. Each commission is curated around the client's taste and occasion, with discreet and white-label delivery available.
 
-## Services
-- **Sol** ($197) — 45-min mix, consultation, 2 revisions, 7-day delivery
-- **Caya** ($397) — 75-min mix, full curation, custom intro/outro, stems, unlimited revisions, 5-day delivery
-- **Solcaya** (from $750) — 2+ hours, multi-mix suites, white-label planner delivery, NDA, dedicated timeline
-
-## Process
-1. Consultation — private conversation about taste and mood
-2. Composition — hand-curated, blended, sculpted to brief
-3. Refinement — client listens, we revise until inevitable
-4. Delivery — mastered files on dedicated timeline, white-label available
-
-## Discretion
-Commissions never publicised. Names never shared. White-label delivery standard. NDA available.
+## Key pages
+- Home: https://solcaya.com/ — studio overview and bespoke-mix approach.
+- Commission tiers and pricing: https://solcaya.com/#collection — Sol ($197), Caya ($397), and Solcaya (from $750).
+- Studio/about: https://solcaya.com/#about — the studio's approach and discretion commitments.
+- Audio samples: https://solcaya.com/#samples — selected bespoke mix examples.
+- Process: https://solcaya.com/#process — consultation, composition, refinement, and delivery.
+- Journal index: https://solcaya.com/journal/ — practical guidance on bespoke mixes, wedding music, and private-event sound.
+- Journal — cocktail-hour music: https://solcaya.com/journal/how-to-choose-wedding-cocktail-hour-music — choosing personal, conversation-friendly wedding music.
+- Journal — custom mix pricing: https://solcaya.com/journal/how-much-does-a-custom-dj-mix-cost — commission tiers, scope, and delivery.
+- Journal — first-dance song: https://solcaya.com/journal/how-to-choose-your-first-dance-song — selecting a first-dance song and planning playback.
+- Journal — bespoke mix or playlist: https://solcaya.com/journal/bespoke-mix-vs-playlist — differences between a hand-composed mix and playlist.
+- Journal — private-estate music: https://solcaya.com/journal/music-for-private-estates — planning music across a private event.
+- Private inquiry / booking: https://solcaya.com/#inquire — submit a commission brief.
+- Terms: https://solcaya.com/terms/terms — terms of service.
 
 ## Contact
 - Email: hello@solcaya.com
 - Instagram: @solcaya.studio
 - TikTok: @solcaya.studio
 
-## Audio Samples
-- Midnight Suite (Deep house, 64 min) — https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/midnight-suite.mp3
-- Golden Hour (R&B, 39 min) — https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/golden-hour.mp3
-- Velvet Rooftop (Afrobeats, 91 min) — https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/velvet-rooftop.mp3
-
-## Terms
-Full Terms of Service: /terms/terms
+## Audio samples
+- Midnight Suite (deep house, 64 min): https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/midnight-suite.mp3
+- Golden Hour (R&B, 39 min): https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/golden-hour.mp3
+- Velvet Rooftop (Afrobeats, 91 min): https://pub-2ff1df5bdd66452291e1f2b753b2bc40.r2.dev/velvet-rooftop.mp3
